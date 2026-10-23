@@ -1,8 +1,8 @@
 #!/bin/sh
-# Install: curl -fsSL https://raw.githubusercontent.com/<user>/autocommit/main/install.sh | sh
+# Install: curl -fsSL https://raw.githubusercontent.com/tomasmajercik/autoCommit/main/install.sh | sh
 set -e
 
-REPO="${AUTOCOMMIT_REPO:-YOUR_GITHUB_USER/autocommit}"
+REPO="${AUTOCOMMIT_REPO:-tomasmajercik/autoCommit}"
 BRANCH="${AUTOCOMMIT_BRANCH:-main}"
 DIR="${AUTOCOMMIT_DIR:-$HOME/.local/bin}"
 URL="https://raw.githubusercontent.com/$REPO/$BRANCH/autocommit.py"

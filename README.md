@@ -7,7 +7,7 @@ Generate a one-line commit message from the staged diff with Claude Haiku, then 
 Requires: `git`, Python 3.8+, and [Claude Code](https://claude.ai/code) (logged in).
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/YOUR_GITHUB_USER/autocommit/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/tomasmajercik/autoCommit/main/install.sh | sh
 ```
 
 Windows: run it in Git Bash.
